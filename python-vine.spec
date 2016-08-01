@@ -29,8 +29,6 @@ Promises, promises, promises
 
 %install
 %py2_install
-# remove tests again since we don't want to install em
-rm -r $RPM_BUILD_ROOT%{python2_sitelib}/tests
 
 
 %files
